@@ -1,4 +1,4 @@
-angular.module('Awwward', [])
+angular.module('Leaderboard', [])
     .controller('awardsController', AwardsController);
 
 

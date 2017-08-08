@@ -1,1 +1,1 @@
-angular.module('Awwward', []);
+angular.module('Leaderboard', []);

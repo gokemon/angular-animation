@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Chewy|Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:300);
 body {
     width: 500px;
     margin: 4rem auto;
     font-size: 21px;
     line-height: 1.5;
     background: #95e3e3;
-    font-family: 'Shadows Into Light', Georgia, 'Times New Roman', serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 h1:before {
@@ -21,7 +21,7 @@ h1:before {
 }
 
 h1 {
-    font-family: "Chewy", Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 3.6rem;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ form:hover {
 
 form label,
 form input {
-    font-family: Helvetica;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 0.8rem;
     font-weight: bold;
     display: block;

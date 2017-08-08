@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="Awwward">
+<html ng-app="Leaderboard">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Awards Winner</title>
+    <title>Leaderboard</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     <script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>
@@ -15,11 +15,11 @@
 
 
 <body>
-    <h1>Awards Winner</h1>
+    <h1>Leaderboard</h1>
     <section ng-controller="awardsController as awards">
 
         <form ng-submit="awards.createNewWinner()">
-            <label for="new-winner-name">New Winner's Name:</label>
+            <label for="new-winner-name">New Leader's Name:</label>
             <input type="text" id="new-winner-name" ng-model="awards.newWinner.name" ng-class="{'error': awards.newWinner.name.length <= 4}" placeholder="e.g. Michael Gokey">
 
             <input type="submit" value="Add New Winner" ng-disabled="awards.newWinner.name.length <= 4 || awards.newWinner.name.length == null">
