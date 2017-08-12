@@ -1,3 +1,4 @@
+// setting the connection
 angular.module('Leaderboard', [])
     .controller('awardsController', AwardsController);
 
@@ -21,4 +22,4 @@ function AwardsController() {
         this.winners.push(this.newWinner);
         this.newWinner = {};
     }
-}
+} // AwardsController function
